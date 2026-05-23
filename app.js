@@ -1,6 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const a = (obj) => {
-};
-a({ name: "Umayer", email: "hello", password: "abcd", age: 21 });
+class BottleMaker {
+    name;
+    price;
+    constructor(name, price) {
+        this.name = name;
+        this.price = price;
+    }
+}
+const d1 = new BottleMaker("Milton", 1200);
+console.log(d1)
 //# sourceMappingURL=app.js.map

@@ -1,15 +1,6 @@
-// let a = 10
-interface user {
-    name: string,
-    email: string,
-    password: string,
-}
-interface admin extends user {
-    age: number
-}
+class BottleMaker {
+    constructor(public name: string, public price: number) {
 
-const a = (obj: admin) => {
-    
+    }
 }
-
-a({name: "Umayer", email:"hello", password:"abcd",age:21})
+const d1 = new BottleMaker("Milton",1200)
