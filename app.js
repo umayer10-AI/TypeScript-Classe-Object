@@ -1,13 +1,15 @@
 "use strict";
+// class BottleMaker {
+//     constructor(public name: string, public price: number) {
 Object.defineProperty(exports, "__esModule", { value: true });
+//     }
+// }
+// const d1 = new BottleMaker("Milton",1200)
 class BottleMaker {
     name;
-    price;
-    constructor(name, price) {
+    constructor(name) {
         this.name = name;
-        this.price = price;
     }
 }
-const d1 = new BottleMaker("Milton", 1200);
-console.log(d1)
+const b1 = new BottleMaker("Umayer");
 //# sourceMappingURL=app.js.map
