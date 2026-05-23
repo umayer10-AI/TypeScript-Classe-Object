@@ -24,5 +24,7 @@ class Hello {
     }
 }
 const b1 = new Hello("Toyota", 2026, 'Black', "metal");
-console.log(b1)
+const b2 = new Hello("TATA", 2027, 'Yellow', "Gold");
+const b3 = new Hello("Honda", 2028, 'Blue', "Cipper");
+console.log(b1,b2,b3)
 //# sourceMappingURL=app.js.map
