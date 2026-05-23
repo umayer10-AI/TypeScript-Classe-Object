@@ -6,7 +6,7 @@
 // const d1 = new BottleMaker("Milton",1200)
 
 class BottleMaker {
-    constructor(public name: string){
+    constructor(public name: string, public age:number = 0){
 
     }
 }
