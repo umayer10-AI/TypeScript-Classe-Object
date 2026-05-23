@@ -5,9 +5,17 @@
 // }
 // const d1 = new BottleMaker("Milton",1200)
 
-class BottleMaker {
-    constructor(public name: string, public age:number = 0){
+// class BottleMaker {
+//     age = 0
+//     constructor(public name: string){
+
+//     }
+// }
+// const b1 = new BottleMaker("Umayer")
+
+class Hello {
+    constructor(public brand:string,public price:number,public color:string,public meterial:string){
 
     }
 }
-const b1 = new BottleMaker("Umayer")
+const b1 = new Hello("Toyota",2026,'Black',"metal")

@@ -5,14 +5,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     }
 // }
 // const d1 = new BottleMaker("Milton",1200)
-class BottleMaker {
-    name;
-    age;
-    constructor(name, age = 0) {
-        this.name = name;
-        this.age = age;
+// class BottleMaker {
+//     age = 0
+//     constructor(public name: string){
+//     }
+// }
+// const b1 = new BottleMaker("Umayer")
+class Hello {
+    brand;
+    price;
+    color;
+    meterial;
+    constructor(brand, price, color, meterial) {
+        this.brand = brand;
+        this.price = price;
+        this.color = color;
+        this.meterial = meterial;
     }
 }
-const b1 = new BottleMaker("Umayer",21);
+const b1 = new Hello("Toyota", 2026, 'Black', "metal");
 console.log(b1)
 //# sourceMappingURL=app.js.map
