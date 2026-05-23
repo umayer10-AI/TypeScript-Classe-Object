@@ -11,20 +11,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     }
 // }
 // const b1 = new BottleMaker("Umayer")
-class Hello {
-    brand;
-    price;
-    color;
-    meterial;
-    constructor(brand, price, color, meterial) {
-        this.brand = brand;
-        this.price = price;
-        this.color = color;
-        this.meterial = meterial;
+// class Hello {
+//     constructor(public brand:string,public price:number,public color:string,public meterial:string){
+//     }
+// }
+// const b1 = new Hello("Toyota",2026,'Black',"metal")
+class Music {
+    name;
+    artist;
+    thumbnail;
+    length;
+    free;
+    constructor(name, artist, thumbnail = "p.jpg", length, free) {
+        this.name = name;
+        this.artist = artist;
+        this.thumbnail = thumbnail;
+        this.length = length;
+        this.free = free;
     }
 }
-const b1 = new Hello("Toyota", 2026, 'Black', "metal");
-const b2 = new Hello("TATA", 2027, 'Yellow', "Gold");
-const b3 = new Hello("Honda", 2028, 'Blue', "Cipper");
-console.log(b1,b2,b3)
+const b = new Music("Umayer", "Boss", "pp", 21, true);
 //# sourceMappingURL=app.js.map
