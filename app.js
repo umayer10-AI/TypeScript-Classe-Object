@@ -28,7 +28,13 @@ class Music {
         this.thumbnail = thumbnail;
         this.length = length;
         this.free = free;
+        if (!thumbnail) {
+            this.thumbnail = "Umayer.png";
+        }
     }
 }
-const b = new Music("Umayer", "Boss", "pp", 21, true);
+const b = new Music("Umayer", "Boss", "", 21, true);
+console.log(b)
+console.log(b);
+
 //# sourceMappingURL=app.js.map

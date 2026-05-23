@@ -22,7 +22,9 @@
 
 class Music {
     constructor(public name: string, public artist: string, public thumbnail: string="p.jpg",public length:number, public free:boolean){
-
+        if(!thumbnail){
+            this.thumbnail = "Umayer.png"
+        }
     }
 }
-const b = new Music("Umayer","Boss","pp",21,true)
+const b = new Music("Umayer","Boss","",21,true)
